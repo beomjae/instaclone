@@ -8,6 +8,69 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
+  <nav class="navigation">
+    <a href="feed.html">
+      <img src="images/navLogo.png" class="navigation__logo"/>
+    </a>
+    <div class="navigation__search">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Search" class="navigation__input">
+    </div>
+    <div class="navigation__icons">
+      <a href="explore.html" class="navigation__link">
+        <i class="fa fa-compass"></i>
+      </a>
+      <a href="#" class="navigation__link">
+        <i class="fa fa-heart-o"></i>
+      </a>
+      <a href="profile.html" class="navigation__link">
+        <i class="fa fa-user-o"></i>
+      </a>
+    </div>
+  </nav>
+  <main class="edit-profile">
+    <header class="edit-profile__header">
+      <img src="images/avatar.jpg" />
+      <h3 class="edit-profile__title">beomjae</h3>
+    </header>
+    <form class="form">
+      <div class="form__row">
+        <label for="name" class="form__name">Name</label>
+        <input type="text" id="name">
+      </div>
+      <div class="form__row">
+        <label for="username" class="form__name">Username</label>
+        <input type="text" id="username">
+      </div>
+      <div class="form__row">
+        <label for="website" class="form__name">Website</label>
+        <input type="text" id="website">
+      </div>
+      <div class="form__row">
+        <label for="bio" class="form__name">Bio</label>
+        <textarea id="bio"></textarea>
+      </div>
+      <div class="form__row">
+        <label for="email" class="form__name">Email</label>
+        <input type="email" id="email">
+      </div>
+      <div class="form__row">
+        <label for="phone-number" class="form__name">Phone Number</label>
+        <input type="text" id="phone-number">
+      </div>
+      <div class="form__row">
+        <label for="gender" class="form__name">Gender</label>
+        <select name="" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class="form__row">
+        <input type="submit" value="submit">
+      </div>
+    </form>
+  </main>
   <footer>
     <nav class="footer__nav">
       <ul class="footer__list">
