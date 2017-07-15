@@ -1,4 +1,14 @@
 body {
   background-color: #fafafa;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #262626;
+}
+
+main {
+  max-width: 1000px;
+}
+
+a {
+  text-decoration: none;
 }
