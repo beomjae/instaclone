@@ -19,22 +19,31 @@
       box-sizing: border-box;
       display: flex;
       justify-content: space-around;
-      align-items: stretch;
+      align-items: center;
     }
 
     .child {
       width: 27.8%;
+      height: 200px;
       background-color: yellow;
       border: 10px solid green;
+    }
+
+    #one {
+      align-self: flex-start;
+    }
+
+    #three {
+      align-self: flex-end;
     }
   </style>
 </head>
 
 <body>
   <div class="father">
+    <div class="child" id="one"></div>
     <div class="child"></div>
-    <div class="child"></div>
-    <div class="child"></div>
+    <div class="child" id="three"></div>
   </div>
 </body>
 
