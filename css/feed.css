@@ -1,12 +1,15 @@
 .feed {
   width: 40%;
-  margin: 30px auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .photo {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   background-color: white;
+  margin-top: 30px;
 }
 
 .photo__header {
