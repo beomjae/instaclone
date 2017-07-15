@@ -33,40 +33,42 @@
   </nav>
   <main class="edit-profile">
     <header class="edit-profile__header">
-      <img src="images/avatar.jpg" />
+      <div class="edit-profile__avatar">
+        <img src="images/avatar.jpg" />
+      </div>
       <h3 class="edit-profile__title">beomjae</h3>
     </header>
     <form class="form">
       <div class="form__row">
         <label for="name" class="form__label">Name</label>
-        <input type="text" id="name">
+        <input type="text" id="name" value="Lee Beomjae">
       </div>
       <div class="form__row">
         <label for="username" class="form__label">Username</label>
-        <input type="text" id="username">
+        <input type="text" id="username" value="beomjae">
       </div>
       <div class="form__row">
         <label for="website" class="form__label">Website</label>
-        <input type="text" id="website">
+        <input type="text" id="website" value="http://blog.scloudy.com">
       </div>
       <div class="form__row">
         <label for="bio" class="form__label">Bio</label>
-        <textarea id="bio"></textarea>
+        <textarea id="bio">Hello World~ I'm Web Programmer from jeju.</textarea>
       </div>
       <div class="form__row">
         <label for="email" class="form__label">Email</label>
-        <input type="email" id="email">
+        <input type="email" id="email" value="beomjae@gmail.com">
       </div>
       <div class="form__row">
         <label for="phone-number" class="form__label">Phone Number</label>
-        <input type="text" id="phone-number">
+        <input type="text" id="phone-number" value="010-1111-1111">
       </div>
       <div class="form__row">
         <label for="gender" class="form__label">Gender</label>
         <select id="gender">
-          <option value="male">Male</option>
+          <option value="male" selected>Male</option>
           <option value="female">Female</option>
-          <option value="cant" selected>Can't remember</option>
+          <option value="cant">Can't remember</option>
         </select>
       </div>
       <div class="form__row">
@@ -75,7 +77,8 @@
         <label for="similar" class="form__outside-label">Include your account when recommending similar accounts people might want to follow.</label>
       </div>
       <div class="form__row">
-        <input type="submit" value="submit">
+        <span class="form__label"></span>
+        <input type="submit" value="Submit">
       </div>
     </form>
   </main>

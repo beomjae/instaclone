@@ -1,0 +1,89 @@
+.edit-profile {
+  width: 696px;
+  margin: 60px auto;
+  border: 1px solid #e6e6e6;
+  background-color: white;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.edit-profile__header {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.edit-profile__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.edit-profile__avatar {
+  width: 164px;
+  text-align: right;
+  margin-right: 32px;
+}
+
+.edit-profile__header img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.form {
+  margin-top: 32px;
+}
+
+.form__row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.form__label {
+  width: 164px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 32px;
+}
+
+.form__row input, .form__row textarea, .form__row select {
+  width: 60%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  resize: vertical;
+  font-size: 14px;
+}
+
+.form__row input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.form__row .form__outside-label {
+  width: 60%;
+}
+
+.form__row select {
+  width: 20%;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 14px;
+  color: #999;
+  background-color: transparent;
+}
+
+.form__row input[type="submit"] {
+  width: 100px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #3897f0;
+  padding: 5px 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
