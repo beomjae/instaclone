@@ -21,6 +21,11 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.explore__users:last-child {
+  border: 0;
 }
 
 .explore__user-info {
@@ -60,6 +65,7 @@
   border-radius: 3px;
   font-weight: 700;
   padding: 7px;
+  cursor: pointer;
   box-sizing: border-box;
   transition: all .3s ease;
 }

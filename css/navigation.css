@@ -16,9 +16,10 @@
 .navigation__link {
   color: #262626;
   margin-right: 10px;
-  animation: .5s menuLink linear;
   transition: all .3s ease;
   display: inline-block;
+  animation: .3s menuLink linear forwards;
+  opacity: 0;
 }
 
 .navigation__link:hover {
