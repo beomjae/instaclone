@@ -61,4 +61,14 @@
   font-weight: 700;
   padding: 7px;
   box-sizing: border-box;
+  transition: all .3s ease;
+}
+
+.explore__user button:active, .explore__user button:focus {
+  outline: none;
+}
+
+.explore__user button:active {
+  opacity: 0.8;
+  transform: scale(0.95, 0.95);
 }
