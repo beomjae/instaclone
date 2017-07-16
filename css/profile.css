@@ -147,3 +147,56 @@
 .profile__photo-stat:first-child {
   margin-right: 20px;
 }
+
+.profileOverlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profileOverlay i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.profileOverlay-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileOverlay__links {
+  width: 600px;
+  border: 1 solid #efefef;
+}
+
+.profileOverlay__link {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+  background-color: white;
+}
+
+.profileOverlay__link a, .profileOverlay__link a:visited {
+  color: #333;
+}
+
+.profileOverlay__link:last-child {
+  border-bottom: 0;
+}
+
+.profileOverlay__link:hover {
+  background-color: #efefef;
+}
