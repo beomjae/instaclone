@@ -28,7 +28,7 @@
   .photo__add-comment {
     display: none;
   }
-  .explore {
+  .explore, .edit-profile {
     width: 100%;
     margin-top: 0;
     background: transparent;
@@ -67,15 +67,18 @@
   }
   .profile__name {
     justify-content: center;
-  }
-  .profile__counts {
-    justify-content: space-between;
-  }
-  .profile__stat {
-    margin: auto;
+    order: 1;
   }
   .profile__bio {
     width: 100%;
+    order: 2;
+  }
+  .profile__counts {
+    justify-content: space-between;
+    order: 3;
+  }
+  .profile__stat {
+    margin: auto;
   }
   .profile__photo {
     margin: auto;
@@ -88,5 +91,17 @@
     max-height: 95px;
     width: auto;
     height: auto;
+  }
+  .edit-profile .form__row {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .edit-profile .form__row input[type="text"], .edit-profile .form__row input[type="email"], .edit-profile .form__row textarea {
+    width: 100%;
+  }
+  .edit-profile .form__row .form__label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
   }
 }
