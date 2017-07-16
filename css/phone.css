@@ -37,4 +37,21 @@
   .explore__user {
     border-bottom: 0;
   }
+  #login .login__column:first-child {
+    display: none;
+  }
+  #login .login__column:last-child {
+    width: 100%;
+  }
+  #login .login__box {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+  }
+  #login .login__box:first-child {
+    padding: 0;
+  }
+  .login__form input[type="text"], .login__form input[type="password"] {
+    background-color: transparent;
+  }
 }
