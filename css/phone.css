@@ -1,0 +1,40 @@
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  .navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .navigation__search {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer__item {
+    margin-bottom: 10px;
+  }
+  .photo {
+    margin-top: 0;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+  }
+  .photo__add-comment {
+    display: none;
+  }
+  .explore {
+    width: 100%;
+    margin-top: 0;
+    background: transparent;
+    border: 0;
+  }
+  .explore__user {
+    border-bottom: 0;
+  }
+}
