@@ -54,4 +54,39 @@
   .login__form input[type="text"], .login__form input[type="password"] {
     background-color: transparent;
   }
+  .profile {
+    width: 100%;
+  }
+  .profile__header {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .profile__user-info {
+    margin-top: 20px;
+    width: 80%;
+  }
+  .profile__name {
+    justify-content: center;
+  }
+  .profile__counts {
+    justify-content: space-between;
+  }
+  .profile__stat {
+    margin: auto;
+  }
+  .profile__bio {
+    width: 100%;
+  }
+  .profile__photo {
+    margin: auto;
+    width: 33%;
+    height: auto;
+  }
+  .profile__photo img {
+    display: block;
+    max-width: 100%;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+  }
 }
